@@ -28,7 +28,7 @@
             width: 100%;
             position: relative; 
             margin-bottom: 4rem;  
-            background-image: url(/images/image-header-mobile.jpg); 
+            background-image: url(images/image-header-mobile.jpg); 
             background-size: cover; 
             background-position: center center;
             background-repeat: no-repeat;
@@ -42,7 +42,7 @@
             @include breakpoint-up(large){
                order: 2;
                height: 44.6rem;
-               background-image: url(/images/image-header-desktop.jpg); 
+               background-image: url(images/image-header-desktop.jpg); 
                margin-bottom: 0px;
                padding-left: 1.4rem;
             }
