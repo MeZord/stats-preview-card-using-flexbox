@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+    
+    
+  }
+  :root {
+    /*Display size*/
+    --mobile: 375px;
+    --desktop: 1439px;
+  }
+  *,
+  *::before,
+  *::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+
+  
+  body{
+      min-height: 100vh;
+      background-color: $verydarkblue;
+      color: $white;
+      font-family: $primfont;
+      
+
+  }
