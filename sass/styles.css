@@ -68,7 +68,7 @@ body {
   width: 100%;
   position: relative;
   margin-bottom: 4rem;
-  background-image: url(/images/image-header-mobile.jpg);
+  background-image: url(images/image-header-mobile.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -84,6 +84,7 @@ body {
   .card .card__images {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
+    background-image: url(images/image-header-desktop.jpg);
             order: 2;
     height: 44.6rem;
     margin-bottom: 0px;
